@@ -12,4 +12,12 @@ fun main() {
     // PARTIE B 
     fun joinOptions(options: Collection<String>) = options.joinToString(separator = ", ", prefix = "[", postfix = "]")
 	println(joinOptions(listOf("a", "b","c")))
+
+    // A. classes de donnees
+    class Person(var name: String, var age: Int)
+    var Personne = Person("Ines",28)
+ 	
+    // on affiche le resultat
+    println(Personne.name)
+    println(Personne.age)
 }
